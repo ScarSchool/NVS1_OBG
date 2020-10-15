@@ -2,8 +2,6 @@
 import 'dart:html';
 import 'dart:convert';
 
-// Package imports
-
 // Relative imports
 import 'package:quickstart/src/chat_room_subject.dart';
 import 'package:quickstart/src/helpers.dart';
@@ -90,7 +88,7 @@ class ChatRoomView implements View {
     sendBtn = chatRoomBox.querySelector('#ChatRoomSendBtn');
     leaveBtn = chatRoomBox.querySelector('#ChatRoomLeaveBtn');
 
-    _addEventListeners(); // TODO: Implement this method next
+    _addEventListeners();
   }
 
   @override
