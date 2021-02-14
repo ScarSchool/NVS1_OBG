@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messwerte und Visualisierungen</title>
+
+    <!-- Chart JS from an online CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+
+    <script src="messwerte.js"></script>
+</head>
+<body>
+    <h1>Hallo! Dies ist die Messreihenauswertungsseite!</h1>
+
+    <h2>Ungefilterte Messreihe</h2>
+    <div id="unfilteredChartDiv" style="height: 80%; width: 80%;">
+        <canvas id="unfilteredChartCanvas">
+        </canvas>
+    </div>
+
+    <h2>Übung 2: Messreihe mit ausgewählter Störung entfernt</h2>
+    <div id="uebung2ChartDiv" style="height: 80%; width: 80%;">
+        <canvas id="uebung2ChartCanvas">
+        </canvas>
+    </div>
+
+    <h2>Übung 3: Spikes entfernt</h2>
+    <div id="uebung3ChartDiv" style="height: 80%; width: 80%;">
+        <canvas id="uebung3ChartCanvas">
+        </canvas>
+    </div>
+
+    <h2>Übung 4: Dreiecksfilter und Fast-Fourier Transformation</h2>
+    <div id="uebung4ChartDiv" style="height: 80%; width: 80%;">
+        <canvas id="uebung4ChartCanvas">
+        </canvas>
+    </div>
+
+</body>
+</html>

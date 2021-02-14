@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart assignment</title>
+
+    <!-- Chart JS from an online CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Chart assignment</h1>
+    <div id="unfilteredChartDiv" style="height: 80%; width: 80%; margin: auto">
+        <h2>Unfiltered Chart</p>
+        <canvas id="unfilteredChartCanvas">
+
+        </canvas>
+    </div>
+    <hr style="margin: 2vh">
+    <div id="filteredChartCanvas-PatterDiv" style="height: 80%; width: 80%; margin: auto">
+        <h2>Filtered Chart following the pattern 10,20,30,40,10</p>
+        <canvas id="filteredChartCanvas-Pattern">
+
+        </canvas>
+    </div>
+    <hr style="margin: 2vh">
+    <div id="filteredChartCanvas-SpikesDiv" style="height: 80%; width: 80%; margin: auto">
+        <h2>Delete Spikes from Chart</p>
+        <canvas id="filteredChartCanvas-Spikes">
+
+        </canvas>
+    </div>
+    
+    <hr style="margin: 2vh">
+    <div id="filteredChartCanvas-FFTDiv" style="height: 80%; width: 80%; margin: auto">
+        <h2>FFT Filter</p>
+        <canvas id="filteredChartCanvas-FFT">
+
+        </canvas>
+    </div>
+</body>
+</html>
