@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zw4t9nuG5FXoABSw5r43/4YYQ3ezBUlfzMq1hgslQu3SNKh4G/Np95X2InSQEAU0KsEIRoT7qeTwq/80orVrmA==",
+  "success": true,
+  "projectFilePath": "C:\\GitHub\\ScarSchool\\NVS1_OBG\\ImageProject_2\\Server\\Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scarc\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\scarc\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\scarc\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
